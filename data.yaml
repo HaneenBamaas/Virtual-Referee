@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['foul', 'fouling_player', 'red card', 'victim', 'yellow card']
+
+roboflow:
+  workspace: haneen-3uxwl
+  project: football-foul-main-xbvns
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/haneen-3uxwl/football-foul-main-xbvns/dataset/5
